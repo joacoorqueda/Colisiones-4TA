@@ -45,8 +45,25 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
-       
+        else if (other.gameObject.name == "pareddelamuerte1")
+        {
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.name == "pareddelamuerte2")
+        {
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.name == "pareddelamuerte3")
+        {
+            Destroy(gameObject);
+        }
+        else if (other.gameObject.name == "pareddelamuerte4")
+        {
+            Destroy(gameObject);
+        }
+
 
     }
+
 
 }
